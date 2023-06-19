@@ -28,7 +28,7 @@ const DetailScreen = ({ route: { params } }) => {
   if (!data) return null;
   return (
     <View style={{ flex: 1 }}>
-      <StatusBar style="inverted" />
+      <StatusBar style={"light"} />
       <ImageBackground
         style={styles.cover}
         imageStyle={{ resizeMode: "stretch" }}
